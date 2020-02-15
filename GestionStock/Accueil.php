@@ -32,6 +32,6 @@ else
     <a href="Authentification.php"><button type="button" name="button">Authentification</button></a>
   </body>
 </html>
-<?php
+<?php 
 require_once 'includes/footer.php';
  ?>
