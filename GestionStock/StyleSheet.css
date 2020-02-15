@@ -1,0 +1,86 @@
+#croix
+{
+  width: 30px;
+}
+#ajouter
+{
+  width: 30px;
+}
+#valider
+{
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 430px;
+}
+#annuler
+{
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 530px;
+}
+input[type=number]
+{
+ width:100px;
+}
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;
+}
+#bouton_supprimer
+{
+
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+#prenom, #nom, #adresse, #dob, #mdpinscription, #confmdp, #mail, #tel, #situation, #sexe
+{
+    margin-left: 38%;
+}
+#Confirmer
+{
+    display: block;
+    margin: auto;
+    margin-top: 1%;
+}
+#validercommande
+{
+  display: block;
+  margin: auto;
+}
+#commentaire
+{
+  display: block;
+  margin: auto;
+  width: 60%;
+  height: 100px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+  font-style: oblique;
+  border-radius: 5px;
+  background: #DADED9;
+}
+#left
+{
+margin-left: 8%;
+}
+#center
+{
+margin-left: 31%;
+}
+#right
+{
+    float:right;
+    margin-right: 8%;
+}
+#logo
+{
+  border-radius: 5px;
+  width: 116px;
+  margin-right:10px;
+}
