@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<TextView
+		android:text="Login"
+		android:textSize="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:gravity="center"
+		android:layout_marginTop="10dp"
+		android:id="@+id/login" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:id="@+id/enterlogin" />
+	<TextView
+		android:text="Mot De Passe"
+		android:textSize="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:gravity="center"
+		android:id="@+id/mdp" />
+	<EditText
+		android:inputType="textPassword"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:id="@+id/enterpassword" />
+	<Button
+		android:text="Connection"
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="95dp"
+		android:id="@+id/connection" />
+	<TextView
+		android:text="Login ou Mot de Passe incorect"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize="20dp"
+		android:gravity="center"
+		android:layout_marginTop="10dp"
+		android:textColor="#A11D25"
+		android:visibility="gone"
+		android:id="@+id/error" />
+
+</LinearLayout>

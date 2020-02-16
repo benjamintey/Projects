@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<TextView
+			android:text="L'utilisateur a pris le nombre de jour de congés suivant :"
+			android:layout_width="match_parent"
+			android:textSize="20dp"
+			android:gravity="center"
+			android:layout_marginTop="20dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/txtAfichage" />
+	<TextView
+			android:text=""
+			android:layout_width="match_parent"
+			android:textSize="20dp"
+			android:gravity="center"
+			android:layout_marginTop="20dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/NbCongesPris" />
+	<Button
+		android:text="Retour"
+		android:layout_width="170dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:layout_marginLeft="95dp"
+		android:id="@+id/btnRetour" />
+
+</LinearLayout>
